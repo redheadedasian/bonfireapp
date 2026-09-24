@@ -1,0 +1,254 @@
+{
+  "version": "1.0",
+  "asset_count": 62,
+  "assets": [
+    {
+      "path": "controls/button_default_140x40.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/button_default_220x56.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/button_disabled_140x40.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/button_disabled_220x56.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/button_hover_140x40.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/button_hover_220x56.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/button_pressed_140x40.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/button_pressed_220x56.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/character_selector_detailed_408x80.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/inventory_slot_default_64.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/inventory_slot_disabled_64.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/inventory_slot_hover_64.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/inventory_slot_selected_64.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/search_field_detailed_320x44.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/tab_default_132x40.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/tab_selected_132x40.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/toggle_off_44x26.svg",
+      "type": "svg"
+    },
+    {
+      "path": "controls/toggle_on_44x26.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/ability_scores_1064x190.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/ac_plate_detailed_220x122.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/equipment_sidebar_310x760.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/features_sidebar_260x560.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/hp_plate_detailed_310x120.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/level_medallion_detailed_144.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/modal_720x480.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/panel_large_640x360.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/panel_medium_480x220.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/panel_small_320x180.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/passive_senses_1064x134.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/portrait_frame_detailed_256x316.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/portrait_mask_256x316.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/primary_attack_badge_128x94.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/saving_throws_920x210.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/stat_card_detailed_200x94.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/tooltip_320x180.svg",
+      "type": "svg"
+    },
+    {
+      "path": "frames/topbar_master_1536x96.svg",
+      "type": "svg"
+    },
+    {
+      "path": "icons/character_fallback_64.svg",
+      "type": "svg"
+    },
+    {
+      "path": "icons/chevron_down_32.svg",
+      "type": "svg"
+    },
+    {
+      "path": "icons/flame_48.svg",
+      "type": "svg"
+    },
+    {
+      "path": "icons/gear_40.svg",
+      "type": "svg"
+    },
+    {
+      "path": "icons/upload_40.svg",
+      "type": "svg"
+    },
+    {
+      "path": "indicators/progress_fill_gold_420x14.svg",
+      "type": "svg"
+    },
+    {
+      "path": "indicators/progress_fill_purple_420x14.svg",
+      "type": "svg"
+    },
+    {
+      "path": "indicators/progress_fill_red_420x14.svg",
+      "type": "svg"
+    },
+    {
+      "path": "indicators/progress_track_420x14.svg",
+      "type": "svg"
+    },
+    {
+      "path": "indicators/rarity_badge_common_34.svg",
+      "type": "svg"
+    },
+    {
+      "path": "indicators/rarity_badge_epic_34.svg",
+      "type": "svg"
+    },
+    {
+      "path": "indicators/rarity_badge_legendary_34.svg",
+      "type": "svg"
+    },
+    {
+      "path": "indicators/rarity_badge_rare_34.svg",
+      "type": "svg"
+    },
+    {
+      "path": "indicators/rarity_badge_uncommon_34.svg",
+      "type": "svg"
+    },
+    {
+      "path": "indicators/spell_slot_empty_24.svg",
+      "type": "svg"
+    },
+    {
+      "path": "indicators/spell_slot_filled_24.svg",
+      "type": "svg"
+    },
+    {
+      "path": "indicators/status_diamond_death_20.svg",
+      "type": "svg"
+    },
+    {
+      "path": "indicators/status_diamond_exhaustion_20.svg",
+      "type": "svg"
+    },
+    {
+      "path": "indicators/status_diamond_neutral_20.svg",
+      "type": "svg"
+    },
+    {
+      "path": "ornaments/corner_bottom_left_40.svg",
+      "type": "svg"
+    },
+    {
+      "path": "ornaments/corner_bottom_right_40.svg",
+      "type": "svg"
+    },
+    {
+      "path": "ornaments/corner_top_left_40.svg",
+      "type": "svg"
+    },
+    {
+      "path": "ornaments/corner_top_right_40.svg",
+      "type": "svg"
+    },
+    {
+      "path": "ornaments/divider_diamond_400x24.svg",
+      "type": "svg"
+    },
+    {
+      "path": "ornaments/divider_filigree_280x22.svg",
+      "type": "svg"
+    },
+    {
+      "path": "overlays/portrait_placeholder_hatch_238x298.svg",
+      "type": "svg"
+    }
+  ]
+}

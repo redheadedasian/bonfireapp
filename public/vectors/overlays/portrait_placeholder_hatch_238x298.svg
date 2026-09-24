@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="238" height="298" viewBox="0 0 238 298" fill="none"><defs>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a3408"/><stop offset=".22" stop-color="#e2ad3d"/><stop offset=".36" stop-color="#f4d06a"/><stop offset=".55" stop-color="#9a6517"/><stop offset=".76" stop-color="#dca43a"/><stop offset="1" stop-color="#4a2b07"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1c765"/><stop offset=".2" stop-color="#bd8124"/><stop offset=".58" stop-color="#6c4210"/><stop offset=".85" stop-color="#d19a31"/><stop offset="1" stop-color="#583309"/></linearGradient>
+<linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c0a07"/><stop offset=".5" stop-color="#171008"/><stop offset="1" stop-color="#090806"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#ffe79b" stop-opacity=".95"/><stop offset=".2" stop-color="#f6c95b" stop-opacity=".6"/><stop offset=".55" stop-color="#d4901f" stop-opacity=".15"/><stop offset="1" stop-color="#d4901f" stop-opacity="0"/></radialGradient>
+<pattern id="hatch" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(32)"><rect width="8" height="8" fill="#100d09"/><rect width="2" height="8" fill="#1a140c"/></pattern>
+</defs><rect width="238" height="298" fill="url(#hatch)"/><rect x="1" y="1" width="236" height="296" stroke="#21180d"/></svg>

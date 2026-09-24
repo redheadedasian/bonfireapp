@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="100" viewBox="0 0 12 100" preserveAspectRatio="none" fill="none">
+<defs>
+  <linearGradient id="rail_vr_edge" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7a4f15" stop-opacity="0.6"/>
+    <stop offset="15%" stop-color="#e2ad3d"/>
+    <stop offset="50%" stop-color="#f5d47a"/>
+    <stop offset="85%" stop-color="#e2ad3d"/>
+    <stop offset="100%" stop-color="#7a4f15" stop-opacity="0.6"/>
+  </linearGradient>
+</defs>
+<!-- Outer gilded ridge line at right -->
+<line x1="8" y1="0" x2="8" y2="100" stroke="url(#rail_vr_edge)" stroke-width="1.2"/>
+<!-- Secondary inner trim line -->
+<line x1="4" y1="0" x2="4" y2="100" stroke="#68400f" stroke-width="0.75" stroke-opacity="0.85"/>
+</svg>

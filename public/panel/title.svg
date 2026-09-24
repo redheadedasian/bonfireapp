@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="48" viewBox="0 0 800 48" fill="none" preserveAspectRatio="none">
+  <defs>
+    <!-- Gold metallic gradient for outer filigree -->
+    <linearGradient id="gold-banner-edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3d260a" />
+      <stop offset="12%" stop-color="#b8832a" />
+      <stop offset="25%" stop-color="#f6d376" />
+      <stop offset="50%" stop-color="#d49b38" />
+      <stop offset="75%" stop-color="#f6d376" />
+      <stop offset="88%" stop-color="#b8832a" />
+      <stop offset="100%" stop-color="#3d260a" />
+    </linearGradient>
+
+    <!-- Vertical bevel gradient for plates -->
+    <linearGradient id="gold-banner-vert" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7d988" />
+      <stop offset="25%" stop-color="#caa044" />
+      <stop offset="70%" stop-color="#7a4f15" />
+      <stop offset="100%" stop-color="#382108" />
+    </linearGradient>
+
+    <!-- Dark stone/obsidian empty background plate -->
+    <linearGradient id="banner-bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#14110d" stop-opacity="0.95" />
+      <stop offset="50%" stop-color="#080705" stop-opacity="0.98" />
+      <stop offset="100%" stop-color="#14110d" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Radial golden ambient glow behind title center -->
+    <radialGradient id="center-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e2b047" stop-opacity="0.22" />
+      <stop offset="45%" stop-color="#caa044" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Drop shadow for decorative filigree elements -->
+    <filter id="shadow" x="-8%" y="-20%" width="116%" height="150%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.8" />
+    </filter>
+  </defs>
+
+  <!-- Main Wide Banner Backing Plate with chamfered fantasy edges -->
+  <g filter="url(#shadow)">
+    <!-- Backdrop Shape -->
+    <path d="M 28 8 L 52 4 L 748 4 L 772 8 L 794 24 L 772 40 L 748 44 L 52 44 L 28 40 L 6 24 Z" 
+          fill="url(#banner-bg)" 
+          stroke="#2a1e12" 
+          stroke-width="1.5" />
+
+    <!-- Center Radial Glow for text prominence -->
+    <ellipse cx="400" cy="24" rx="280" ry="18" fill="url(#center-glow)" />
+
+    <!-- Outer Gold Trim Border -->
+    <path d="M 28 8 L 52 4 L 748 4 L 772 8 L 794 24 L 772 40 L 748 44 L 52 44 L 28 40 L 6 24 Z" 
+          fill="none" 
+          stroke="url(#gold-banner-edge)" 
+          stroke-width="1.3" />
+
+    <!-- Inner Inset Gold Hairline with decorative step-ins -->
+    <path d="M 36 12 L 56 8 L 744 8 L 764 12 L 782 24 L 764 36 L 744 40 L 56 40 L 36 36 L 18 24 Z" 
+          fill="none" 
+          stroke="url(#gold-banner-vert)" 
+          stroke-width="0.8" 
+          stroke-opacity="0.75" />
+
+    <!-- Top & Bottom Micro Accent Ridges -->
+    <line x1="120" y1="6" x2="680" y2="6" stroke="#f6d376" stroke-width="0.8" stroke-opacity="0.8" />
+    <line x1="160" y1="42" x2="640" y2="42" stroke="#caa044" stroke-width="0.7" stroke-opacity="0.6" />
+  </g>
+
+  <!-- Left End Ornate Filigree Bracket & Gems -->
+  <g transform="translate(0, 0)">
+    <!-- Pointed Ribbon Terminal -->
+    <polygon points="6,24 16,14 26,14 18,24 26,34 16,34" fill="#1b150e" stroke="url(#gold-banner-edge)" stroke-width="1" />
+    <!-- Left Wing Diamond Cluster -->
+    <polygon points="32,24 38,18 44,24 38,30" fill="#2d1c0a" stroke="#f6d376" stroke-width="1.2" />
+    <circle cx="38" cy="24" r="2" fill="#ffeaa7" />
+    <!-- Left Horizontal Filigree Flairs -->
+    <path d="M 44 24 Q 70 18 100 24" stroke="url(#gold-banner-edge)" stroke-width="1.2" fill="none" />
+    <path d="M 54 20 Q 80 14 110 18" stroke="#8a5c1e" stroke-width="0.8" fill="none" />
+    <path d="M 54 28 Q 80 34 110 30" stroke="#8a5c1e" stroke-width="0.8" fill="none" />
+    <!-- Small Diamond Pip -->
+    <polygon points="106,24 110,21 114,24 110,27" fill="#f4d06a" />
+  </g>
+
+  <!-- Right End Ornate Filigree Bracket & Gems -->
+  <g transform="translate(800, 0) scale(-1, 1)">
+    <!-- Pointed Ribbon Terminal -->
+    <polygon points="6,24 16,14 26,14 18,24 26,34 16,34" fill="#1b150e" stroke="url(#gold-banner-edge)" stroke-width="1" />
+    <!-- Right Wing Diamond Cluster -->
+    <polygon points="32,24 38,18 44,24 38,30" fill="#2d1c0a" stroke="#f6d376" stroke-width="1.2" />
+    <circle cx="38" cy="24" r="2" fill="#ffeaa7" />
+    <!-- Right Horizontal Filigree Flairs -->
+    <path d="M 44 24 Q 70 18 100 24" stroke="url(#gold-banner-edge)" stroke-width="1.2" fill="none" />
+    <path d="M 54 20 Q 80 14 110 18" stroke="#8a5c1e" stroke-width="0.8" fill="none" />
+    <path d="M 54 28 Q 80 34 110 30" stroke="#8a5c1e" stroke-width="0.8" fill="none" />
+    <!-- Small Diamond Pip -->
+    <polygon points="106,24 110,21 114,24 110,27" fill="#f4d06a" />
+  </g>
+
+  <!-- Center Empty Middle is wide and open for dynamic title text between x=120 and x=680 -->
+</svg>

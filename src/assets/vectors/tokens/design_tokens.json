@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "reference": {
+    "implementation": "1664x896",
+    "visual_target": "Bonfire detailed mockup"
+  },
+  "colors": {
+    "background": "#0b0a08",
+    "surface": "#0c0a07",
+    "goldDark": "#5a3408",
+    "goldMid": "#9a6517",
+    "gold": "#dca43a",
+    "goldBright": "#f4d06a"
+  },
+  "implementation": {
+    "largeFrames": "Use 9-slice or overlay; do not non-uniformly stretch ornate corners.",
+    "portrait": "Image under frame, object-fit:cover, fixed frame overlay.",
+    "text": "Keep text/data native."
+  }
+}

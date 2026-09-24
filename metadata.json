@@ -1,0 +1,8 @@
+{
+  "name": "Bonfire",
+  "description": "A dark fantasy D&D 5e Character Sheet and Campaign Assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
